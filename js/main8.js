@@ -122,6 +122,62 @@
                 emitter3.gravity = -200;
                 emitter3.start(false, 5000, 100);
 
+                emitter4 = game.add.emitter(game.world.centerX - 250, 500);
+                emitter4.makeParticles('corona4');
+                emitter4.setRotation(0,0);
+                emitter4.setAlpha(0.3,0.8);
+                emitter4.setScale(0.5,1.1);
+                emitter4.gravity = -200;
+                emitter4.start(false,5000,100);
+
+                emitter5 = game.add.emitter(game.world.centerX + 50, 300);
+                emitter5.makeParticles('corona5');
+                emitter5.setRotation(0,0);
+                emitter5.setAlpha(0.3,0.8);
+                emitter5.setScale(0.4,1);
+                emitter5.gravity = -200;
+                emitter5.start(false,5000,100);
+
+                emitter6 = game.add.emitter(game.world.centerX + 300, 200);
+                emitter6.makeParticles('corona6');
+                emitter6.setRotation(0,0);
+                emitter6.setAlpha(0.3,0.8);
+                emitter6.setScale(0.5,0.9);
+                emitter6.gravity = -200;
+                emitter6.start(false,5000,100);
+
+                emitter7 = game.add.emitter(game.world.centerX, 200, 200);
+                emitter7.makeParticles('corona7');
+                emitter7.setRotation(0,0);
+                emitter7.setAlpha(0.3,0.8);
+                emitter7.setScale(0.4,1);
+                emitter7.gravity = - 200;
+                emitter7.start(false,5000,100);
+
+                emitter8 = game.add.emitter(game.world.centerX + 310, 500);
+                emitter8.makeParticles('corona8');
+                emitter8.setRotation(0,0);
+                emitter8.setAlpha(0.3,0.8);
+                emitter8.setScale(0.4,1);
+                emitter8.gravity = -200;
+                emitter8.start(false,5000,100);
+
+                emitter9 = game.add.emitter(game.world.centerX - 90, 400, 200);
+                emitter9.makeParticles('corona9');
+                emitter9.setRotation(0,0);
+                emitter9.setAlpha(0.3,0.8);
+                emitter9.setScale(0.4,1);
+                emitter9.gravity = -200;
+                emitter9.start(false,5000,100);
+
+                emitter10 = game.add.emitter(game.world.centerX + 90, 550, 200);
+                emitter10.makeParticles('corona10');
+                emitter10.setRotation(0,0);
+                emitter10.setAlpha(0.3,0.8);
+                emitter10.setScale(0.4,1);
+                emitter10.gravity = -200;
+                emitter10.start(false,5000,100);
+
             }
 
             function render() {
