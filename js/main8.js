@@ -114,6 +114,14 @@
                 emitter2.gravity = -200;
                 emitter2.start(false, 5000, 100);
 
+                emitter3 = game.add.emitter(game.world.centerX + 300, 400);
+                emitter3.makeParticles('corona3');
+                emitter3.setRotation(0,0);
+                emitter3.setAlpha(0.3,0.8);
+                emitter3.setScale(0.4,0.9);
+                emitter3.gravity = -200;
+                emitter3.start(false, 5000, 100);
+
             }
 
             function render() {
